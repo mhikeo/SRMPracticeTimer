@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED14EDF819A4F6F500524015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14EDF719A4F6F500524015 /* AppDelegate.swift */; };
+		ED14EDFB19A4F6F500524015 /* SRMPracticeTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED14EDF919A4F6F500524015 /* SRMPracticeTimer.xcdatamodeld */; };
+		ED14EDFD19A4F6F500524015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14EDFC19A4F6F500524015 /* ViewController.swift */; };
+		ED14EE0019A4F6F500524015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED14EDFE19A4F6F500524015 /* Main.storyboard */; };
+		ED14EE0219A4F6F500524015 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED14EE0119A4F6F500524015 /* Images.xcassets */; };
+		ED14EE0E19A4F6F500524015 /* SRMPracticeTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14EE0D19A4F6F500524015 /* SRMPracticeTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED14EE0819A4F6F500524015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED14EDEA19A4F6F400524015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED14EDF119A4F6F500524015;
+			remoteInfo = SRMPracticeTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED14EDF219A4F6F500524015 /* SRMPracticeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRMPracticeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED14EDF619A4F6F500524015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED14EDF719A4F6F500524015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED14EDFA19A4F6F500524015 /* SRMPracticeTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SRMPracticeTimer.xcdatamodel; sourceTree = "<group>"; };
+		ED14EDFC19A4F6F500524015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED14EDFF19A4F6F500524015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED14EE0119A4F6F500524015 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED14EE0719A4F6F500524015 /* SRMPracticeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRMPracticeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED14EE0C19A4F6F500524015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED14EE0D19A4F6F500524015 /* SRMPracticeTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRMPracticeTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED14EDEF19A4F6F500524015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14EE0419A4F6F500524015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED14EDE919A4F6F400524015 = {
+			isa = PBXGroup;
+			children = (
+				ED14EDF419A4F6F500524015 /* SRMPracticeTimer */,
+				ED14EE0A19A4F6F500524015 /* SRMPracticeTimerTests */,
+				ED14EDF319A4F6F500524015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED14EDF319A4F6F500524015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED14EDF219A4F6F500524015 /* SRMPracticeTimer.app */,
+				ED14EE0719A4F6F500524015 /* SRMPracticeTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED14EDF419A4F6F500524015 /* SRMPracticeTimer */ = {
+			isa = PBXGroup;
+			children = (
+				ED14EDF719A4F6F500524015 /* AppDelegate.swift */,
+				ED14EDFC19A4F6F500524015 /* ViewController.swift */,
+				ED14EDFE19A4F6F500524015 /* Main.storyboard */,
+				ED14EE0119A4F6F500524015 /* Images.xcassets */,
+				ED14EDF919A4F6F500524015 /* SRMPracticeTimer.xcdatamodeld */,
+				ED14EDF519A4F6F500524015 /* Supporting Files */,
+			);
+			path = SRMPracticeTimer;
+			sourceTree = "<group>";
+		};
+		ED14EDF519A4F6F500524015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED14EDF619A4F6F500524015 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED14EE0A19A4F6F500524015 /* SRMPracticeTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED14EE0D19A4F6F500524015 /* SRMPracticeTimerTests.swift */,
+				ED14EE0B19A4F6F500524015 /* Supporting Files */,
+			);
+			path = SRMPracticeTimerTests;
+			sourceTree = "<group>";
+		};
+		ED14EE0B19A4F6F500524015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED14EE0C19A4F6F500524015 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED14EDF119A4F6F500524015 /* SRMPracticeTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED14EE1119A4F6F500524015 /* Build configuration list for PBXNativeTarget "SRMPracticeTimer" */;
+			buildPhases = (
+				ED14EDEE19A4F6F500524015 /* Sources */,
+				ED14EDEF19A4F6F500524015 /* Frameworks */,
+				ED14EDF019A4F6F500524015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRMPracticeTimer;
+			productName = SRMPracticeTimer;
+			productReference = ED14EDF219A4F6F500524015 /* SRMPracticeTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED14EE0619A4F6F500524015 /* SRMPracticeTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED14EE1419A4F6F500524015 /* Build configuration list for PBXNativeTarget "SRMPracticeTimerTests" */;
+			buildPhases = (
+				ED14EE0319A4F6F500524015 /* Sources */,
+				ED14EE0419A4F6F500524015 /* Frameworks */,
+				ED14EE0519A4F6F500524015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED14EE0919A4F6F500524015 /* PBXTargetDependency */,
+			);
+			name = SRMPracticeTimerTests;
+			productName = SRMPracticeTimerTests;
+			productReference = ED14EE0719A4F6F500524015 /* SRMPracticeTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED14EDEA19A4F6F400524015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mhykol;
+				TargetAttributes = {
+					ED14EDF119A4F6F500524015 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					ED14EE0619A4F6F500524015 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ED14EDF119A4F6F500524015;
+					};
+				};
+			};
+			buildConfigurationList = ED14EDED19A4F6F400524015 /* Build configuration list for PBXProject "SRMPracticeTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED14EDE919A4F6F400524015;
+			productRefGroup = ED14EDF319A4F6F500524015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED14EDF119A4F6F500524015 /* SRMPracticeTimer */,
+				ED14EE0619A4F6F500524015 /* SRMPracticeTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED14EDF019A4F6F500524015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED14EE0019A4F6F500524015 /* Main.storyboard in Resources */,
+				ED14EE0219A4F6F500524015 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14EE0519A4F6F500524015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED14EDEE19A4F6F500524015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED14EDFD19A4F6F500524015 /* ViewController.swift in Sources */,
+				ED14EDF819A4F6F500524015 /* AppDelegate.swift in Sources */,
+				ED14EDFB19A4F6F500524015 /* SRMPracticeTimer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14EE0319A4F6F500524015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED14EE0E19A4F6F500524015 /* SRMPracticeTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED14EE0919A4F6F500524015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED14EDF119A4F6F500524015 /* SRMPracticeTimer */;
+			targetProxy = ED14EE0819A4F6F500524015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED14EDFE19A4F6F500524015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED14EDFF19A4F6F500524015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED14EE0F19A4F6F500524015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED14EE1019A4F6F500524015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED14EE1219A4F6F500524015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SRMPracticeTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED14EE1319A4F6F500524015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SRMPracticeTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED14EE1519A4F6F500524015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRMPracticeTimer.app/SRMPracticeTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRMPracticeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		ED14EE1619A4F6F500524015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRMPracticeTimer.app/SRMPracticeTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SRMPracticeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED14EDED19A4F6F400524015 /* Build configuration list for PBXProject "SRMPracticeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED14EE0F19A4F6F500524015 /* Debug */,
+				ED14EE1019A4F6F500524015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED14EE1119A4F6F500524015 /* Build configuration list for PBXNativeTarget "SRMPracticeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED14EE1219A4F6F500524015 /* Debug */,
+				ED14EE1319A4F6F500524015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED14EE1419A4F6F500524015 /* Build configuration list for PBXNativeTarget "SRMPracticeTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED14EE1519A4F6F500524015 /* Debug */,
+				ED14EE1619A4F6F500524015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED14EDF919A4F6F500524015 /* SRMPracticeTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED14EDFA19A4F6F500524015 /* SRMPracticeTimer.xcdatamodel */,
+			);
+			currentVersion = ED14EDFA19A4F6F500524015 /* SRMPracticeTimer.xcdatamodel */;
+			path = SRMPracticeTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED14EDEA19A4F6F400524015 /* Project object */;
+}
