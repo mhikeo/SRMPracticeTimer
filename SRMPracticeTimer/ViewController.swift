@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var startStopButton: UIButton
+    
+    var isCounting: Bool = false
                             
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func gotoMain(_: AnyObject) {
+    @IBAction func startStopCount(_: AnyObject) {
+        
+        if (isCounting) {
+            // self.
+        }
         
     }
 
