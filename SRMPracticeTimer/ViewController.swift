@@ -7,11 +7,11 @@
 //
 
 import UIKit
-import SpriteKit
+// import SpriteKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var startStopButton: UIButton
+    @IBOutlet var startStopButton: UIButton!
     
     var isCounting: Bool = false
                             
@@ -28,9 +28,13 @@ class ViewController: UIViewController {
     @IBAction func startStopCount(_: AnyObject) {
         
         if (isCounting) {
-            // self.
+            self.startStopButton.titleLabel.text = "STOP"
+        } else {
+            self.startStopButton.titleLabel.text = "START"
         }
         
+        isCounting = !isCounting;
+
     }
 
 }
